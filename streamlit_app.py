@@ -3,45 +3,52 @@ from streamlit_image_comparison import image_comparison
 import cv2
 
 
-st.set_page_config("Webb Space Telescope vs Hubble Telescope", "🔭")
+st.set_page_config("Experiments with Face-Swapping", "🔭")
 
-st.header("🔭 J. Webb Space Telescope vs Hubble Telescope")
+st.header("Experiments with Face-Swapping")
 
 st.write("")
-"This is a reproduction of the fantastic [WebbCompare](https://www.webbcompare.com/index.html) app by [John Christensen](https://twitter.com/JohnnyC1423). It's built in Streamlit and takes only 10 lines of Python code. If you like this app, please star [John's original repo](https://github.com/JohnEdChristensen/WebbCompare)!"
+"This is a reproduction of the fantastic [WebbCompare](https://www.webbcompare.com/index.html) app."
 st.write("")
 
-st.markdown("### Southern Nebula")
+st.markdown("### Seinfeld")
 image_comparison(
-    img1="https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg",
-    img2="https://www.webbcompare.com/img/webb/southern_nebula_700.jpg",
-    label1="Hubble",
-    label2="Webb",
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/seinfeld_original.png",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/seinfeld_new1.png",
+    label1="Original",
+    label2="Face-Swapped",
 )
 
-
-st.markdown("### Galaxy Cluster SMACS 0723")
+st.markdown("### Seinfeld")
 image_comparison(
-    img1="https://www.webbcompare.com/img/hubble/deep_field_700.jpg",
-    img2="https://www.webbcompare.com/img/webb/deep_field_700.jpg",
-    label1="Hubble",
-    label2="Webb",
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/seinfeld_original.png",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/seinfeld_new2.png",
+    label1="Original",
+    label2="Face-Swapped",
 )
 
-st.markdown("### Carina Nebula")
+st.markdown("### Kramer with the painting")
 image_comparison(
-    img1="https://www.webbcompare.com/img/hubble/carina_2800.png",
-    img2="https://www.webbcompare.com/img/webb/carina_2800.jpg",
-    label1="Hubble",
-    label2="Webb",
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/kramer_original.png",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/kramer_new.png",
+    label1="Original",
+    label2="Swapped",
 )
 
-st.markdown("### Stephan's Quintet")
+st.markdown("### Terminator 2 -first poster")
 image_comparison(
-    img1="https://www.webbcompare.com/img/hubble/stephans_quintet_2800.jpg",
-    img2="https://www.webbcompare.com/img/webb/stephans_quintet_2800.jpg",
-    label1="Hubble",
-    label2="Webb",
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/t2_original1.png",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/t2_new.png",
+    label1="Original",
+    label2="Swapped",
+)
+
+st.markdown("### Terminator 2 -second poster")
+image_comparison(
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/t2_original2.png",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/t2_new2.png",
+    label1="Original",
+    label2="Swapped",
 )
 
 

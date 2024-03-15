@@ -34,18 +34,19 @@ def check_password():
 if not check_password():
     st.stop()  # Do not continue if check_password is not True.
 
-
 #
-st.set_page_config("Experiments with Face-Swapping", "🔭")
+st.set_page_config("Cassiar AI Labs Demo", "🔭")
 
 st.image("https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/CASSIAR_v02_small.png")
 st.header("Cassiar AI Labs Demo Site")
 
+# st.markdown('##AI Labs')
 st.write("")
 "Welcome!"
-st.write("")
 st.write("This is a demo site created to showcase our advances in the field of image  and video processing using the newest AI techniques - developed here at the labs.")
-
+st.write("We love working with visual media - images and videos and generally categorize them into these borad categories")
+st.write("")
+st.image("https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/AI Labs.png")
 
 st.markdown("### Kramer with the painting")
 image_comparison(

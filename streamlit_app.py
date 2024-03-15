@@ -38,27 +38,14 @@ if not check_password():
 #
 st.set_page_config("Experiments with Face-Swapping", "🔭")
 
-st.header("Experiments with Face-Swapping")
+st.image("https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/CASSIAR_v02_small.png")
+st.header("Cassiar AI Labs Demo Site")
 
 st.write("")
-"This is a reproduction of the fantastic [WebbCompare](https://www.webbcompare.com/index.html) app."
+"Welcome!"
 st.write("")
+st.write("This is a demo site created to showcase our advances in the field of image  and video processing using the newest AI techniques - developed here at the labs.")
 
-st.markdown("### Seinfeld")
-image_comparison(
-    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/seinfeld_original.png",
-    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/seinfeld_new1.png",
-    label1="Original",
-    label2="Face-Swapped",
-)
-
-st.markdown("### Seinfeld")
-image_comparison(
-    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/seinfeld_original.png",
-    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/seinfeld_new2.png",
-    label1="Original",
-    label2="Face-Swapped",
-)
 
 st.markdown("### Kramer with the painting")
 image_comparison(
@@ -68,20 +55,53 @@ image_comparison(
     label2="Swapped",
 )
 
-st.markdown("### Terminator 2 -first poster")
+st.markdown("### Example 1")
 image_comparison(
-    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/t2_original1.png",
-    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/t2_new.png",
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/1-input.jpg",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/1-output.png",
+    label1="Original",
+    label2="Face-Swapped",
+)
+
+st.markdown("### Example 2")
+image_comparison(
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/2-input.jpg",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/2-output.png",
+    label1="Original",
+    label2="Face-Swapped",
+)
+
+
+st.markdown("### Example 3")
+image_comparison(
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/3-input.jpg",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/3-output.png",
     label1="Original",
     label2="Swapped",
 )
 
-st.markdown("### Terminator 2 -second poster")
+st.markdown("### Example 4")
 image_comparison(
-    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/t2_original2.png",
-    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/t2_new2.png",
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/4-input.jpg",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/4-output.png",
     label1="Original",
     label2="Swapped",
 )
 
+
+st.markdown("### Example 5")
+image_comparison(
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/5-input.jpg",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/5-output.png",
+    label1="Original",
+    label2="Swapped",
+)
+
+st.markdown("### Example 6")
+image_comparison(
+    img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/6-input.jpg",
+    img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/6-output.png",
+    label1="Original",
+    label2="Swapped",
+)
 

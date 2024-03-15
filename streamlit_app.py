@@ -126,3 +126,6 @@ image_comparison(
     label2="Swapped",
 )
 
+# st.write("FaceMagic also works with videos. Here are some of the examples of videos before and after")
+# st.video()
+

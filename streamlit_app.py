@@ -41,14 +41,34 @@ st.image("https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/CASSIAR
 st.header("Cassiar AI Labs Demo Site")
 
 # st.markdown('##AI Labs')
-st.write("")
-"Welcome!"
+st.write("Welcome!")
 st.write("This is a demo site created to showcase our advances in the field of image  and video processing using the newest AI techniques - developed here at the labs.")
-st.write("We love working with visual media - images and videos and generally categorize them into these borad categories")
-st.write("")
+st.write("We love working with visual media - images and videos, and we have categorize them into: Faces, Architecture and Landscapes")
+# st.write("")
 st.image("https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/AI Labs.png")
 
-st.markdown("### Kramer with the painting")
+
+st.markdown("### FaceMagic")
+st.write("Let us begin with our AI Labs app - FaceMagic, aimed at simplifying and speeding the high quality image and video generation in face swapping.")
+# st.write("")
+st.image("https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/facemagic placeholder1.png")
+
+
+st.write("")
+
+
+
+
+st.write("FaceMagic uses reference faces, source media to swap faces with and a number of settings and parameters for the artist to change")
+st.write("Here is an example of how the FaceMagic works closely with the artist, giving them the full control over image generation and image quality.")
+st.image("https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/Karan-CH1.png")
+
+
+
+
+st.write("## Other examples")
+
+st.write("Example 1")
 image_comparison(
     img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/kramer_original.png",
     img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/kramer_new.png",
@@ -56,7 +76,7 @@ image_comparison(
     label2="Swapped",
 )
 
-st.markdown("### Example 1")
+st.write("Example 2")
 image_comparison(
     img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/1-input.jpg",
     img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/1-output.png",
@@ -64,7 +84,7 @@ image_comparison(
     label2="Face-Swapped",
 )
 
-st.markdown("### Example 2")
+st.write("Example 3")
 image_comparison(
     img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/2-input.jpg",
     img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/2-output.png",
@@ -73,7 +93,7 @@ image_comparison(
 )
 
 
-st.markdown("### Example 3")
+st.write("Example 4")
 image_comparison(
     img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/3-input.jpg",
     img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/3-output.png",
@@ -81,7 +101,7 @@ image_comparison(
     label2="Swapped",
 )
 
-st.markdown("### Example 4")
+st.write("Example 5")
 image_comparison(
     img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/4-input.jpg",
     img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/4-output.png",
@@ -90,7 +110,7 @@ image_comparison(
 )
 
 
-st.markdown("### Example 5")
+st.write("Example 6")
 image_comparison(
     img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/5-input.jpg",
     img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/5-output.png",
@@ -98,7 +118,7 @@ image_comparison(
     label2="Swapped",
 )
 
-st.markdown("### Example 6")
+st.write("Example 7")
 image_comparison(
     img1="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/6-input.jpg",
     img2="https://sampleimgstorewestus2.blob.core.windows.net/sampleimgs/6-output.png",
